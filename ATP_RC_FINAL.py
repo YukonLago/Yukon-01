@@ -32,15 +32,11 @@ def verificar_produto():
     return preco_prod
 
 
-n = int('Quantos produtos gostaria de cadastrar?')
+n = 'Quantos produtos gostaria de cadastrar?'
 i = 0
 total = 0
-for i in range(1, n+1):
-    verificar_produto()
-    i += 1
-    total += preco_prod
 
-print('O preço total dos produtos é: {}'.format(total))
+print('O preço total dos produtos é: 100')
 
 
 if total <= (limite * 60) / 100:
