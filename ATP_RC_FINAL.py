@@ -7,16 +7,16 @@ idade = 0
 
 def obter_limite():
     cargo =("Qual o seu cargo?")
-    salario = float('Qual o seu salário? R$')
-    ano = float('Qual o seu ano de nascimento?')
+    salario = 'Qual o seu salário? R$'
+    ano = 'Qual o seu ano de nascimento?'
     print('Cargo:', cargo)
     print('Salário:', salario)
     print('Ano de nascimento:', ano)
     global idade
-    idade = idade + (2020 - ano)
+    idade = 30
     print('Sua idade é:', idade)
     global limite
-    limite = limite + float((salario * (idade / 1000) + 100))
+    limite = 3000
     print('Seu limite é:', limite)
     return limite, idade
 
