@@ -6,9 +6,9 @@ idade = 0
 
 
 def obter_limite():
-    cargo = input("Qual o seu cargo?")
-    salario = float(input('Qual o seu salário? R$'))
-    ano = float(input('Qual o seu ano de nascimento?'))
+    cargo =("Qual o seu cargo?")
+    salario = float('Qual o seu salário? R$')
+    ano = float('Qual o seu ano de nascimento?')
     print('Cargo:', cargo)
     print('Salário:', salario)
     print('Ano de nascimento:', ano)
@@ -26,13 +26,13 @@ preco_prod = 0
 
 
 def verificar_produto():
-    nome_prod = input('Por favor digite o nome do produto:')
+    nome_prod =('Por favor digite o nome do produto:')
     global preco_prod
-    preco_prod = float(input('Agora digite o preço do produto:'))
+    preco_prod = float('Agora digite o preço do produto:')
     return preco_prod
 
 
-n = int(input('Quantos produtos gostaria de cadastrar?'))
+n = int('Quantos produtos gostaria de cadastrar?')
 i = 0
 total = 0
 for i in range(1, n+1):
